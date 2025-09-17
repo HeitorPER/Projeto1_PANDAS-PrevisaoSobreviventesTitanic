@@ -1,1 +1,7 @@
+# Arquivo de dependências para o projeto Titanic
 
+pandas==2.2.2
+scikit-learn==1.6.1
+numpy==2.0.2
+seaborn==0.13.2
+matplotlib==3.10.0
