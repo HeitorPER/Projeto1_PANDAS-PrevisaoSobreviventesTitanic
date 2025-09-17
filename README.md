@@ -34,6 +34,8 @@ O objetivo principal é comparar o desempenho de dois modelos de classificação
 
 ## ⚙️ Como Executar o Projeto
 
+Antes de tudo, certifique-se de ter o Python 3 instalado.
+
 1.  Clone este repositório:
     ```bash
     git clone [https://github.com/SEU_USUARIO/previsao-sobreviventes-titanic.git](https://github.com/SEU_USUARIO/previsao-sobreviventes-titanic.git)
@@ -42,19 +44,50 @@ O objetivo principal é comparar o desempenho de dois modelos de classificação
     ```bash
     cd previsao-sobreviventes-titanic
     ```
-3.  Crie um ambiente virtual (recomendado):
+3.  Crie e ative um ambiente virtual (altamente recomendado):
     ```bash
     python -m venv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    # No Linux/macOS:
+    source venv/bin/activate
+    # No Windows:
+    venv\Scripts\activate
     ```
-4.  Instale as dependências:
+4.  Instale as dependências necessárias:
     ```bash
     pip install -r requirements.txt
     ```
-5.  Abra o Jupyter Notebook:
+
+Após a configuração inicial, você tem duas opções para rodar o projeto:
+
+---
+
+### Opção 1: Análise Interativa (Jupyter Notebook)
+
+Esta é a melhor opção para explorar o código passo a passo, visualizar as saídas e entender a análise.
+
+1.  Inicie o Jupyter Notebook:
     ```bash
-    jupyter notebook analise_titanic.ipynb
+    jupyter notebook
     ```
+2.  No seu navegador, abra o arquivo `analise_titanic.ipynb`.
+3.  Execute as células de código sequencialmente.
+
+---
+
+### Opção 2: Execução Direta (Script Python)
+
+Esta opção roda todo o processo de uma só vez, do início ao fim, diretamente do seu terminal. É ideal para ver o resultado final rapidamente.
+
+1.  Certifique-se de que você está no terminal com o ambiente virtual ativado e as dependências instaladas.
+
+2.  Execute o script `analise_titanic.py` com o seguinte comando:
+    ```bash
+    python analise_titanic.py
+    ```
+
+3.  **O que esperar:**
+    * As informações e os relatórios de classificação serão impressos diretamente no seu terminal.
+    * Duas janelas de gráfico (as Matrizes de Confusão) irão aparecer, uma de cada vez. **Você precisará fechar a primeira janela do gráfico para que o script continue e mostre a segunda.**
 
 ## 📈 Resultados e Conclusão
 
