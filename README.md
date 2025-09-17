@@ -39,7 +39,7 @@ Antes de tudo, certifique-se de ter o Python 3 instalado.
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/previsao-sobreviventes-titanic.git](https://github.com/SEU_USUARIO/previsao-sobreviventes-titanic.git)
+    git clone [https://github.com/HeitorPER/Projeto1_PANDAS-PrevisaoSobreviventesTitanic] (https://github.com/HeitorPER/Projeto1_PANDAS-PrevisaoSobreviventesTitanic)
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
