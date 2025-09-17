@@ -14,7 +14,7 @@ O objetivo principal é comparar o desempenho de dois modelos de classificação
 
 ## 🛠️ Ferramentas e Bibliotecas Utilizadas
 
-- Python 3.0
+- Python 3.x
 - Pandas
 - NumPy
 - Scikit-learn
