@@ -26,7 +26,8 @@ O objetivo principal é comparar o desempenho de dois modelos de classificação
 
 ```
 .
-├── analise_titanic.ipynb   # Notebook com todo o processo de análise e modelagem
+├── Projeto1.ipynb   # Notebook com todo o processo de análise e modelagem
+├── Projeto1.py      #Arquivo Python para execucao local
 ├── train.csv               # Dataset de treino original do Kaggle
 ├── requirements.txt        # Lista de dependências para reprodução do ambiente
 └── README.md               # Documentação do projeto
@@ -69,7 +70,7 @@ Esta é a melhor opção para explorar o código passo a passo, visualizar as sa
     ```bash
     jupyter notebook
     ```
-2.  No seu navegador, abra o arquivo `analise_titanic.ipynb`.
+2.  No seu navegador, abra o arquivo `Projeto1.ipynb`.
 3.  Execute as células de código sequencialmente.
 
 ---
@@ -80,9 +81,9 @@ Esta opção roda todo o processo de uma só vez, do início ao fim, diretamente
 
 1.  Certifique-se de que você está no terminal com o ambiente virtual ativado e as dependências instaladas.
 
-2.  Execute o script `analise_titanic.py` com o seguinte comando:
+2.  Execute o script `Projeto1.py` com o seguinte comando:
     ```bash
-    python analise_titanic.py
+    python Projeto1.py
     ```
 
 3.  **O que esperar:**
