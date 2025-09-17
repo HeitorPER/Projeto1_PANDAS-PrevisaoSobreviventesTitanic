@@ -43,7 +43,7 @@ Antes de tudo, certifique-se de ter o Python 3 instalado.
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
-    cd previsao-sobreviventes-titanic
+    cd Projeto1_PANDAS-PrevisaoSobreviventesTitanic
     ```
 3.  Crie e ative um ambiente virtual (altamente recomendado):
     ```bash
